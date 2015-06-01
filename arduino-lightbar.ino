@@ -133,11 +133,13 @@ void loop() {
    {
      writeRed(random(0,2));
      latchRed();
+     delay(100);
    }
    else
    {
      writeGreen(random(0,2));
      latchGreen();
+     delay(100);
    }
    
    return; 
